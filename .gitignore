@@ -1,0 +1,56 @@
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+.travis.yml
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+NOTICE
+PULL_REQUEST_TEMPLATE.md
+README.md
+all/
+bom/
+codestyle/
+dependencies-bom/
+dubbo-cluster/
+dubbo-common/
+dubbo-config/
+dubbo-container/
+dubbo-demo/
+dubbo-filter/
+dubbo-monitor/
+dubbo-plugin/
+dubbo-registry/
+dubbo-remoting/
+dubbo-rpc/
+dubbo-serialization/
+dubbo-test/
+hessian-lite/
+pom.xml
